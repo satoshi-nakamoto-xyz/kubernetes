@@ -5,4 +5,4 @@ jobs:
       - image: cimg/node:14.10.1 # the primary container, where your job's commands are run
     steps:
       - checkout 
-      - run:  curl -L 'https://app.spectralops.io/api/download/get?key=spk-8e93be585fe7431da3f729ff1b3db823' | sh
+      - run:  curl -L 'https://app.spectralops.io/api/download/get?key=spk-8e93be585fe7431da3f729ff1b3db823' | sudo sh
